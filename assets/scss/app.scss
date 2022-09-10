@@ -7,6 +7,10 @@
 /** Import Bootstrap */
 @import "bootstrap/scss/bootstrap";
 
+:root {
+    --bs-aspect-ratio: calc(9 / 16 * 100%) !important
+}
+
 /** Import highlight.js */
 @import "highlight.js/scss/nord";
 
