@@ -126,7 +126,7 @@ if act_rate == 0 || !should_act {
 
 ![chasing](chasing.png)
 
-None static NPCs will idle walk unless they have a target. The idle walk
+Non-static NPCs will idle walk unless they have a target. The idle walk
 routine was shamelessly ripped from EOSERV and seems close enough to
 official server behavior. Basically every walk update:
 
